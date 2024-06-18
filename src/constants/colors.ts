@@ -1,0 +1,58 @@
+export const BRAND_COLORS = {
+  primary: {
+    risd: {
+      "blue-50": "#e6ecff",
+      "blue-100": "#b0c5ff",
+      "blue-200": "#8aa9ff",
+      "blue-300": "#5482ff",
+      "blue-400": "#336aff",
+      "blue-500": "#0045ff",
+      "blue-600": "#003fe8",
+      "blue-700": "#0031b5",
+      "blue-800": "#00268c",
+      "blue-900": "#001d6b",
+    },
+    brandeis: {
+      "blue-50": "#e6f1ff",
+      "blue-100": "#b0d3ff",
+      "blue-200": "#8abdff",
+      "blue-300": "#549fff",
+      "blue-400": "#338dff",
+      "blue-500": "#0070ff",
+      "blue-600": "#0066e8",
+      "blue-700": "#0050b5",
+      "blue-800": "#003e8c",
+      "blue-900": "#002f6b",
+    },
+  },
+  secondary: {
+    "blue-50": "#f9feff",
+    "blue-100": "#ebfaff",
+    "blue-200": "#e2f8ff",
+    "blue-300": "#d4f5ff",
+    "blue-400": "#ccf3ff",
+    "blue-500": "#bff0ff",
+    "blue-600": "#aedae8",
+    "blue-700": "#88aab5",
+    "blue-800": "#69848c",
+    "blue-900": "#50656b",
+  },
+  Grey: {
+    "50": "#eff0f1",
+    "100": "#ccd0d4",
+    "200": "#b3b9c0",
+    "300": "#9098a3",
+    "400": "#7b8591",
+    "500": "#5a6675",
+    "600": "#525d6a",
+    "700": "#404853",
+    "800": "#323840",
+    "900": "#262b31",
+  },
+  notSpecified:{
+    grey: "#EEF2F8",
+    grey1:"#F5F5F5",
+    grey2:"#FBFBFB",
+    risd : "#8AA9FF"
+  }
+};
