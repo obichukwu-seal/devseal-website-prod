@@ -55,7 +55,7 @@ const TheSeals = (props: Props) => {
     (items, index) => {
       return (
         <li key={items.id} className="relative cursor-pointer">
-          {isAboveMediumScreens && (
+          {/* {isAboveMediumScreens && (
             <DetailedProfileCard
               onMouseEnter={(e) => handleMouseEnter(e, true, index)}
               onMouseLeave={() => {
@@ -75,7 +75,7 @@ const TheSeals = (props: Props) => {
               src={items.image}
               about={items.aboutTheDeveloper}
             />
-          )}
+          )} */}
           <ProfileCard
             onMouseEnter={(e) => handleMouseEnter(e, false, index)}
             onMouseLeave={() => {
@@ -111,12 +111,6 @@ const TheSeals = (props: Props) => {
           }
         />
       </section>
-      {/* <BodyText
-        variant="lg"
-        className="text-seal-primary-100 leading-[3rem] mt-[4.4rem] mb-[28.7rem]"
-      >
-        {THE_SEALS_DATA.content}
-      </BodyText> */}
     </Container>
   );
 };
