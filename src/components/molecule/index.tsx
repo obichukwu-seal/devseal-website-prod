@@ -15,7 +15,7 @@ import UtiltityCardV2 from "./utility-card-v2";
 import GetInTouch from "./contact-form";
 import EmailUs from "./email";
 import ConnectWithUS from "./connect";
-
+import BookConsultationForm from "./book-consultation"
 export {
   NavBarRow,
   NavBarColumn,
@@ -36,4 +36,5 @@ export {
   GetInTouch,
   EmailUs,
   ConnectWithUS,
+  BookConsultationForm
 };
