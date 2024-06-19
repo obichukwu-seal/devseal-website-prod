@@ -20,7 +20,7 @@ const NavBarRow = (props: Props) => {
       <ul>
         <Row className="gap-[2.5rem]">{navItems}</Row>
       </ul>
-      <Button href={"/"} variant="primary">
+      <Button href={"/bookings"} variant="primary">
       Book a free consultation
       </Button>
     </Row>

@@ -8,6 +8,8 @@ import {
   Container,
   SectionHelpCard,
 } from "@/components";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -36,6 +38,7 @@ export default function RootLayout({
           <SectionHelpCard />
           <Footer />
         </div>
+        <ToastContainer />
       </body>
     </html>
   );
