@@ -54,7 +54,7 @@ export const SERVICE_PAGE_CONTENTS = {
       title: "How may our SEALs be of help to you?",
       button: {
         text: "Talk to the SEALs",
-        link: "/#",
+        link: "/bookings",
       },
     },
   },

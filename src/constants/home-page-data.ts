@@ -64,7 +64,7 @@ export const HOME_PAGE_CONTENTS = {
       title: "How may our SEALs be of help to you?",
       button: {
         text: "Talk to the SEALs",
-        link: "/#",
+        link: "/bookings",
       },
     },
   },
@@ -175,7 +175,7 @@ export const HOME_PAGE_CONTENTS = {
         title: "Do you have what it takes to be a part of us?",
         button: {
           text: "Become a SEAL",
-          link: "/#",
+          link: "/bookings",
         },
       },
     },
