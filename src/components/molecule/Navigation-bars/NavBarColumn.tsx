@@ -68,7 +68,7 @@ const NavBarColumn = ({ open, close, isOpen = false }: Props) => {
       </span>
 
       <span className="py-1">
-        <Button href={"/"} variant="primary">
+        <Button href={"/bookings"} variant="primary">
           Book a free consultation
         </Button>
       </span>
