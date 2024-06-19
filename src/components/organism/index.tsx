@@ -8,5 +8,6 @@ export * from "./service";
 export * from "./industries";
 export * from "./about-us";
 export * from "./contact-us"
+export * from "./book"
 
 export { NavBar, Footer, SectionHelpCard, BrandThatTrustUs, WhoWeAre };
