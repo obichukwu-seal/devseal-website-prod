@@ -21,7 +21,7 @@ const UtilityCardV1 = ({
       variant={props.variant ? props.variant : "tertiary"}
       className={`${
         props.className ? props.className : ""
-      } hover:border-risd-blue-600 flex flex-col justify-between cursor-pointer transition-all duration-300 px-[2.4rem] pt-[3.2rem] pb-[1.6rem] h-full nin-h-[30.4rem]`}
+      } hover:border-risd-blue-600 flex flex-col justify-between transition-all duration-300 px-[2.4rem] pt-[3.2rem] pb-[1.6rem] h-full nin-h-[30.4rem]`}
       border="xs"
     >
       <Column className="gap-[2.4rem]">

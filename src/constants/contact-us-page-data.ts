@@ -22,7 +22,7 @@ export const CONTACT_US_PAGE_CONTENT = {
     },
     CTA: {
       text: "Send your message",
-      link: "*",
+      link: "/#",
     },
   },
   mailTo:{
