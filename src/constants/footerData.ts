@@ -5,7 +5,7 @@ export const FOOTER_DATA = {
     Image: SealLogo,
     CTA: {
       text: "Book a free consultation",
-      link: "*",
+      link: "/#",
     },
   },
   main: {
@@ -14,7 +14,7 @@ export const FOOTER_DATA = {
     email: "hello@devseal.tech",
     CTA: {
       text: "Become a seal",
-      link: "*",
+      link: "/#",
     },
   },
   footer: {
@@ -22,11 +22,11 @@ export const FOOTER_DATA = {
     links: [
       {
         text: "Privacy Policy",
-        link: "*",
+        link: "/#",
       },
       {
         text: "Media Kit",
-        link: "*",
+        link: "/#",
       },
     ],
   },
