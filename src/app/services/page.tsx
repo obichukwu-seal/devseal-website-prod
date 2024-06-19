@@ -19,11 +19,11 @@ const Services = (props: Props) => {
           images={TRUSTED_BRAND_SECTION.images}
         />
       </section>
-      <OurServices />
       <section className="w-full space-y-[12rem] bg-grey-alt-2 py-[4.8rem]">
         <Range />
         <DataEngineering />
       </section>
+      <OurServices />
     </main>
   );
 };
