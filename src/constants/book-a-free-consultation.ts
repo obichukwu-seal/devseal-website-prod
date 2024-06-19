@@ -2,7 +2,7 @@ export const BOOK_A_FREE_CONSULTATION_PAGE_CONTENT = {
   title: "Book a ,free, consultation",
   body: "See how DevSeal can help your business with our expert software solutions. Schedule a free consultation today to learn more about our custom services. Let's work together to make your ideas happen!",
   form: {
-    title: "Book Consultation",
+    title: "Enter Contact details",
     subtitle: "Enter your details here, a seal will contact you for further instructions",
     contactName: {
       label: "Contact Name",
