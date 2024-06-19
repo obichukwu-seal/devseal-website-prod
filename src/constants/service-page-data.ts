@@ -16,7 +16,7 @@ export const SERVICE_PAGE_CONTENTS = {
     image: AiHand,
   },
   sectionOne: {
-    title: "Our services",
+    title: "Explore Our Expertise in Innovation and Technology",
     sectionItems: [
       {
         id: "0",
@@ -60,7 +60,7 @@ export const SERVICE_PAGE_CONTENTS = {
   },
   sectionTwo: {
     subSectionOne: {
-      title: "We have range",
+      title: "We have a wide range of services",
       list: [
         {
           id: 0,
