@@ -42,7 +42,6 @@ const CustomInput = React.forwardRef<HTMLInputElement, Props>(
             placeholder={placeholder}
             ref={ref}
             disabled={disabled}
-            name={placeholder}
             {...props}
           />
         </div>
