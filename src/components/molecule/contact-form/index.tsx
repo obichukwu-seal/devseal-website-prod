@@ -57,7 +57,7 @@ const GetInTouch = (props: Props) => {
       const fullName =`${firstName} ${lastName}`
       await sendEmail({
         contactName: fullName,
-        message: ` Name: ${fullName} Email: ${email}  /n message: ${message}`,
+        message: ` Name: ${fullName} Email: ${email}  message: ${message}`,
         subject: "Contact Form"
       });
       reset();
