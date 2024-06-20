@@ -48,4 +48,6 @@ const CustomTextArea = React.forwardRef<HTMLTextAreaElement, Props>(
   }
 );
 
+CustomTextArea.displayName = "CustomTextArea";
+
 export default CustomTextArea;

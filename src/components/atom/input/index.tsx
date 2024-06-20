@@ -42,6 +42,7 @@ const CustomInput = React.forwardRef<HTMLInputElement, Props>(
             placeholder={placeholder}
             ref={ref}
             disabled={disabled}
+            name={placeholder}
             {...props}
           />
         </div>
@@ -52,5 +53,6 @@ const CustomInput = React.forwardRef<HTMLInputElement, Props>(
     );
   }
 );
+CustomInput.displayName = "CustomInput";
 
 export default CustomInput;

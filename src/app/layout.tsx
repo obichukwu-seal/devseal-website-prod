@@ -17,8 +17,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DevSEAL Technology Inc.",
-  description: "DevSEAL technology - software development company",
+  title: "devSEAL Technology Inc.",
+  description: "devSEAL technology - software development company",
 };
 
 export default function RootLayout({
