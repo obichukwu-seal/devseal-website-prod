@@ -128,7 +128,7 @@ const BookConsultationForm = (props: Props) => {
             disabled={isLoading}
             className={`${buttonStyle} max-h-[5rem] rounded-[.5rem] text-[1.6rem] font-[600] leading-[2.4rem] flex items-center justify-center`}
           >
-            {isLoading ? <Loader /> : CONTACT_US_PAGE_CONTENT.form.CTA.text}
+            {isLoading ? <Loader /> : BOOK_A_FREE_CONSULTATION_PAGE_CONTENT..form.CTA.text}
           </button>
         </div>
       </Card>
