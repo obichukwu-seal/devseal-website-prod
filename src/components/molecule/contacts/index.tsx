@@ -13,7 +13,6 @@ const Contacts = (props: Props) => {
       <Icon />
     </NavLink>
   ));
-  console.log("props position", props.position);
   return (
     <Column className="gap-[1.6rem] mt-[.8rem] sm:items-end text-left sm:text-right max-w-max">
       <BodyText variant="sm" className="text-white">{FOOTER_DATA.main.contacts.title}</BodyText>
