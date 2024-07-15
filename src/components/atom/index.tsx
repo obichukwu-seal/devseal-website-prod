@@ -15,6 +15,8 @@ import Circle from "./circle";
 import Label from "./label";
 import CustomInput from "./input";
 import CustomTextArea from "./custom-textarea";
+import NavCard from "./nav-card";
+import SlideButton from "./slide-button";
 
 export {
   Label,
@@ -33,5 +35,7 @@ export {
   Avatar,
   Circle,
   CustomInput,
-  CustomTextArea
+  CustomTextArea,
+  NavCard,
+  SlideButton
 };

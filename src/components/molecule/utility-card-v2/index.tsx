@@ -11,7 +11,7 @@ const UtiltityCardV2 = ({ cardImage, ...props }: Props) => {
   return (
     <Card
       variant="unstyled"
-      className="hover:border-risd-blue-600 duration-300 overflow-hidden transition-all"
+      className="hover:border-risd-blue-600 duration-300 overflow-hidden transition-all h-full"
       border="xs"
       rounded="xs"
     >

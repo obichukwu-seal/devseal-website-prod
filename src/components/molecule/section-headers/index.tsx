@@ -1,7 +1,7 @@
 import { BodyText, Title } from "@/components/atom";
-import React from "react";
+import React, {HTMLAttributes}from "react";
 
-type Props = {
+type Props = HTMLAttributes<HTMLHeadingElement> & {
   title?: string;
   body?: string;
   titleClassName?: string;

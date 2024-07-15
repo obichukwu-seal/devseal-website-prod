@@ -10,10 +10,12 @@ const SolutionSeekers = (props: Props) => {
     ({ content, icon: Icon, id, title }, index) => (
       <li key={id}>
         <UtilityCardV1
-          icon={<Icon />}
+          className="hover:bg-risd-blue-700 group/solution transition-colors duration-300"
+          icon={<Icon  className="group-hover/solution:fill-brandeis-blue-50  fill-grey-400 transition-all duration-300" />}
           title={title}
+          titleClassName="group-hover/solution:text-brandeis-blue-50 transition-colors duration-300"
           body={
-            <BodyText variant="sm" className="text-grey-700 font-[400]">
+            <BodyText variant="sm" className="text-grey-700 group-hover/solution:text-grey-100 transition-colors duration-300 font-[400] mt-[.8rem]">
               {content}
             </BodyText>
           }

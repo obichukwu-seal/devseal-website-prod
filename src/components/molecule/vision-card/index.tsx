@@ -20,7 +20,7 @@ const VisionCard = ({
       variant="transparent"
       rounded="xs"
       border="xs"
-      className={`px-[4.0rem] bg-grey-alt-100 transition-all duration-300 cursor-pointer hover:border-risd-blue-600 py-[3.2rem] ${className}`}
+      className={`px-[4.0rem] max-h-[32rem] overflow-hidden bg-grey-alt-100 transition-all duration-300 hover:bg-brandeis-blue-50 cursor-pointer hover:border-risd-blue-600 py-[3.2rem] ${className}`}
       {...props}
     >
       <article className="text-seal-primary-100 space-y-[2.4rem]">

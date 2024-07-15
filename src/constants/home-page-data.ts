@@ -2,6 +2,8 @@ import { HomepageHeroImage } from "@/public/Home-page-images";
 import * as newProductImage from "@/public/new-product-logos";
 import * as erpImages from "@/public/erp";
 import * as cloudImages from "@/public/cloud";
+import * as HeroSlideImages from "@/public/Home-slide-image";
+
 import {
   AbdulImage,
   AfolabImage,
@@ -17,26 +19,80 @@ import {
   RocketIcon,
   StoreFrontIcon,
 } from "@/public/solution-seekers-icon";
+import { BulbSvgIcon, ColorWandSvgIcon, ExtensionPuzzleSvgIcon, EyeSvgIcon, ServerSvgIcon, SpeedoMeterSvgIcon } from "@/public/AL";
 
 export const HOME_PAGE_CONTENTS = {
   hero: {
     title: "Your Premier Software Development Team!",
+    titles: [
+      "Artificial Intelligence and Machine Learning",
+      "Software Product Development",
+      "Your Premier Software Development Team!"
+    ],
     subtitle:
       "From Startups to Industry Leaders, We are Your Technological Partner",
-    image: HomepageHeroImage,
+    image: HeroSlideImages,
+    cta: [
+      {
+        text:"learn more",
+        pathname:"/services/artificial-intelligence-and-machine-learning"
+      },
+      {
+        text:"learn more",
+        pathname:"services/Product-Development-Services"
+      },
+      {
+        text:"learn more",
+        pathname:"/about-us"
+      }
+    ]
   },
-  sectionOne: {
-    title: "What We Excel At",
+  sectionFour:{
+    title: "AI/ML Development Services",
     sectionItems: [
       {
         id: "0",
-        title: "New Products",
-        Content: [
-          "New product development & testing (Web, Windows, Android, iOS)",
-          "Major enhancement & replacement implementation (e.g. Intellisync, Snapshot Mobile)",
-        ],
-        images: Object.values(newProductImage),
+        title: "Generative AI Development",
+        content: "Drive your business with our AI/ML development expertise. Automate routine tasks, streamline complex operations, and improve decision-making using artificial intelligence and machine learning.",
+        Icon: ColorWandSvgIcon,
       },
+      {
+        id: "1",
+        title: "Computer Vision Development",
+        content: "Our custom computer vision solutions equip business systems with capabilities for object detection and tracking, image and video analysis, face and character recognition.",
+        Icon: EyeSvgIcon,
+      },
+ 
+      {
+        id: "2",
+        title: "Intelligent Automation",
+        content: "Let us bring the power of Artificial intelligence to enable smarter and more efficient business processes for your organization.",
+        Icon: SpeedoMeterSvgIcon,
+      },
+      {
+        id: "3",
+        title: "AI Consulting",
+        content: "Benefit from our artificial intelligence consulting services to launch your AI project and bring your innovative business ideas to life.",
+        Icon: BulbSvgIcon,
+      },
+      {
+        id: "4",
+        title: "MLOps Services",
+        content: "Develop, deploy, scale, and maintain ML projects with unprecedented speed and efficiency. Ensure smooth and round-the-clock ML model operations with our MLOps services.",
+        Icon: ServerSvgIcon,
+      },
+      {
+        id: "0",
+        title: "Custom AI Solutions",
+        content: "Find better business models, new revenue streams with Machine Learning and Custom Artificial Intelligence Solutions like Virtual Assistants, Data-Driven Insights and Predictive Analytics.",
+        Icon: ExtensionPuzzleSvgIcon,
+      },
+    ],
+    
+  },
+  sectionOne: {
+    title: "Software Product Development",
+    sectionItems: [
       {
         id: "2",
         title: "Cloud, Data Analytics, AI/ML",
@@ -50,6 +106,16 @@ export const HOME_PAGE_CONTENTS = {
         ],
         images: Object.values(cloudImages),
       },
+      {
+        id: "0",
+        title: "New Products",
+        Content: [
+          "New product development & testing (Web, Windows, Android, iOS)",
+          "Major enhancement & replacement implementation (e.g. Intellisync, Snapshot Mobile)",
+        ],
+        images: Object.values(newProductImage),
+      },
+ 
       {
         id: "1",
         title: "ERP (SAP, Oracle, Dynamic 365)",
@@ -120,6 +186,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "BRAVO Engr. - FullStack",
           aboutTheDeveloper: "",
           image: TaiwoImage,
+          linkedIn:""
         },
         {
           id: "1",
@@ -127,6 +194,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "BRAVO Engr. - FullStack",
           aboutTheDeveloper: "",
           image: ObichukwuImage,
+          linkedIn:""
         },
         {
           id: "2",
@@ -134,6 +202,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "BRAVO Engr. - FrontEnd",
           aboutTheDeveloper: "",
           image: SamsonImage,
+          linkedIn:""
         },
         {
           id: "3",
@@ -141,6 +210,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "CHARLIE Engr. - FrontEnd",
           aboutTheDeveloper: "",
           image: AfolabImage,
+          linkedIn:""
         },
         {
           id: "4",
@@ -148,6 +218,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "CHARLIE Engr. - BackEnd",
           aboutTheDeveloper: "",
           image: HenryImage,
+          linkedIn:""
         },
         {
           id: "5",
@@ -155,6 +226,8 @@ export const HOME_PAGE_CONTENTS = {
           position: "CHARLIE Engr. - BackEnd",
           aboutTheDeveloper: "",
           image: AbdulImage,
+          linkedIn:""
+
         },
         {
           id: "6",
@@ -162,6 +235,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "CHARLIE Engr. - BackEnd",
           aboutTheDeveloper: "",
           image: AyomideImage,
+          linkedIn:""
         },
         {
           id: "7",
@@ -169,6 +243,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "CHARLIE Engr. - BackEnd",
           aboutTheDeveloper: "",
           image: AzubikeImage,
+          linkedIn:""
         },
       ],
       callToAction: {

@@ -1,7 +1,8 @@
 export const SEALS_HELP_CARD ={
-    title: 'How may our SEALs be of help to you?',
+    title: 'Consult the SEALs',
+    body: "Ready to embark on your own transformative journey with devSEAL? Take the first step today.",
     CTA:{
         link: '/bookings',
-        text:'Book a free consultation'
+        text:'Contact Us'
     }
 }

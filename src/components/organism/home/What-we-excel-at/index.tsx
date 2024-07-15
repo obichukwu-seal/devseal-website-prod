@@ -17,7 +17,7 @@ const WhatWeExcelAt = (props: Props) => {
         <UtilityCard
           variant={"transparent"}
           border="xs"
-          className="px-[4rem] py-[3.2rem] min-h-[5.3rem] cursor-pointer transition-all duration-300 hover:bg-grey-alt-1 hover:border-risd-blue-600"
+          className="px-[4rem] py-[3.2rem] min-h-[5.3rem] cursor-pointer transition-all duration-300 hover:bg-brandeis-blue-50 hover:border-risd-blue-600"
           key={sectionItem.id}
           title={sectionItem.title}
           body={
@@ -47,6 +47,7 @@ const WhatWeExcelAt = (props: Props) => {
       );
     }
   );
+  
   return (
     <div className="w-full bg-grey-alt-2">
       <Container className="pt-[4.7rem] pb-[5.6rem]">

@@ -7,9 +7,11 @@ import {
   ScrollToTop,
   Container,
   SectionHelpCard,
+  StayInformed,
 } from "@/components";
 import { ToastContainer } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
+import { STAY_INFORMED_CONTENT } from "@/constants/stay-informed-data";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -36,6 +38,13 @@ export default function RootLayout({
           </header>
           {children}
           <SectionHelpCard />
+          <StayInformed
+            title={STAY_INFORMED_CONTENT.title}
+            body={STAY_INFORMED_CONTENT.content}
+            formCta={STAY_INFORMED_CONTENT.form.input.button.text}
+            formLabel={STAY_INFORMED_CONTENT.form.input[1].label}
+            formPlaceholder={STAY_INFORMED_CONTENT.form.input[1].placeholder}
+          />
           <Footer />
         </div>
         <ToastContainer />

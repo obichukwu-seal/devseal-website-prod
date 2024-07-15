@@ -13,7 +13,7 @@ const SectionHelpCard = (props: Props) => {
   }
   return (
     <Container className="w-full mt-auto py-[4rem]">
-      <HelpCard cta={SEALS_HELP_CARD.CTA} title={SEALS_HELP_CARD.title} />
+      <HelpCard cta={SEALS_HELP_CARD.CTA} title={SEALS_HELP_CARD.title} body={SEALS_HELP_CARD.body} />
     </Container>
   );
 };

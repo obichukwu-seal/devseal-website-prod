@@ -65,7 +65,9 @@ const config: Config = {
         "grey-alt-1": "#F5F5F5",
         "grey-alt-2": "#FBFBFB",
         "risd-alt" : "#8AA9FF",
-        "brandeis-alt": "#B7F0FF"
+        "risd-alt-1" : "#0C1A40",
+        "brandeis-alt": "#B7F0FF",
+        "brandeis-alt-50": "#F5F9FF",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

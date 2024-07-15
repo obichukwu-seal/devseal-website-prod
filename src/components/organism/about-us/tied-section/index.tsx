@@ -7,7 +7,7 @@ type Props = {};
 
 const Tied = (props: Props) => {
     const cardItem = ABOUT_PAGE_CONTENT.sectionThree.list.map(({body,icon:Icon,id,title})=>(<li key={id}>
-        <UtilityCardV1 variant="transparent" icon={<Icon/>} title={title} body={body} className="bg-white"/>
+        <UtilityCardV1 variant="transparent" icon={<Icon/>} title={title} body={body} className="bg-white hover:bg-risd-blue-50 hover:border-2 "/>
     </li>))
   return (
     <section className="w-full bg-grey-alt-2 pt-[4rem] pb-[5.6rem]">

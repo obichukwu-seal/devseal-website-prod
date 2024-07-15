@@ -28,7 +28,7 @@ const Card = ({ variant, rounded, className, border, ...props }: ICardProps) => 
       case "sm":
         return "border-2 border-grey-100";
       case "lg":
-        return "border-3 border-grey-100";
+        return "border-4 border-grey-100";
       default:
         return "";
     }
@@ -41,7 +41,7 @@ const Card = ({ variant, rounded, className, border, ...props }: ICardProps) => 
       case "secondary":
         return "bg-risd-blue-600";
       case "tertiary":
-        return "bg-risd-blue-50";
+        return "bg-brandeis-blue-50";
       case "transparent":
         return "bg-transparent";
         case "unstyled":
@@ -50,6 +50,7 @@ const Card = ({ variant, rounded, className, border, ...props }: ICardProps) => 
         return "bg-risd-blue-700";
     }
   }, [variant]);
+  
   return (
     <div
       className={`${className} ${roundedCornerStyle} ${VariantColors} ${borderStyle}`}

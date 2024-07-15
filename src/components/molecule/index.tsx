@@ -16,6 +16,13 @@ import GetInTouch from "./contact-form";
 import EmailUs from "./email";
 import ConnectWithUS from "./connect";
 import BookConsultationForm from "./book-consultation"
+import HeroSlider from "./slide";
+import StayInformed
+ from "./stay-informed-card";
+import SlideBox from "./SlideBox";
+import Services from "./devseal-services";
+import PrivacySecurity from "./privacy-security";
+
 export {
   NavBarRow,
   NavBarColumn,
@@ -36,5 +43,10 @@ export {
   GetInTouch,
   EmailUs,
   ConnectWithUS,
-  BookConsultationForm
+  BookConsultationForm,
+  HeroSlider,
+  StayInformed,
+  SlideBox,
+  Services,
+  PrivacySecurity
 };

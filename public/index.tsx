@@ -1,6 +1,7 @@
 import Image, { ImageProps } from "next/image";
 import { SVGProps } from "react";
 import DevSealLogo from "./devsealLogo.svg";
+import DevSealLogoWhite from './devseal-logo-white.svg'
 import DevSealLogoNameExcluded from "./devseal-logo-full-opacity.svg";
 import DevSealLogoNameExcludedColored from "./logowithoutNameColored.svg";
 import DeavSealLogoWithoutTheName from "./devseal-logo.png";
@@ -17,8 +18,12 @@ import AiHandImage from "./Ai-hand.jpg";
 import SealsIconInvertedLogo from "./seals-icon-inverted.svg";
 import MapIndustryLogo from "./mapIndustry.svg";
 import industriesHeroImage from "./industries-hero-image.jpg";
+import Mission from "./missionImage.svg";
+import LinkedIn from "./LinkedIn.svg";
+import HoveredLinkedIn from "./LinkedInSvgHovered.svg";
+import { motion } from "framer-motion";
 
-type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
+export type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
 type prop = SVGProps<SVGSVGElement>;
 
 export * from "./brands";
@@ -44,10 +49,19 @@ export * from "./Home-page-images";
 export * from "./solution-seekers-icon";
 export * from "./empower-diverse-image";
 export * from "./tied";
+export * from "./Service-Links";
+export * from "./Home-slide-image";
+export * from "./AL";
+export * from "./ai-ml-images"
 
 export const SealLogo = (props: prop) => {
   return <DevSealLogo {...props} />;
 };
+
+export const SealLogoWhite = (props: prop) => {
+  return <DevSealLogoWhite {...props} />;
+};
+
 export const MapIndustry = (props: prop) => {
   return <MapIndustryLogo {...props} />;
 };
@@ -58,6 +72,14 @@ export const SealsInvertedIcon = (props: prop) => {
 
 export const SealLogoNameExcluded = (props: prop) => {
   return <DevSealLogoNameExcluded {...props} />;
+};
+
+export const LinkedInSvg = (props: prop) => {
+  return <LinkedIn {...props} />;
+};
+
+export const LinkedInSvgHovered = (props: prop) => {
+  return <HoveredLinkedIn {...props} />;
 };
 
 export const SealLogoNameExcludedColored = (props: prop) => {
@@ -73,6 +95,11 @@ export const SealAgentLarge = (props: prop) => {
 export const Tied = (props: NewImageProp) => {
   return <Image src={TiedSvg} alt="Tied" placeholder={"empty"} {...props} />;
 };
+
+export const MissionImage = (props: prop) => {
+  return <Mission {...props} />;
+};
+
 export const VisionAfrica = (props: NewImageProp) => {
   return (
     <Image

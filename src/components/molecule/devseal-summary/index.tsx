@@ -1,24 +1,26 @@
-import { BodyText, Button, Column, Row } from "@/components/atom";
+import { BodyText, Column, Row } from "@/components/atom";
 import { FOOTER_DATA } from "@/constants";
-import { SealAgent } from "@/public/index";
+import { Nigeria, USA } from "@/public/footer-countries";
 import React from "react";
 
 type Props = {};
 
 const Summary = (props: Props) => {
   return (
-    <Column className="gap-[2.5rem] max-w-[38.5rem]">
-      <BodyText variant="xs">{FOOTER_DATA.main.address}</BodyText>
+    <Column className="gap-[2.5rem] max-w-[30.5rem]">
+      {FOOTER_DATA.main.address.map((address, index) => (
+        <div key={index}>
+          <BodyText variant="sm" className="text-white" >{address.region}</BodyText>
+          <BodyText variant="sm" className="text-grey-200 font-400" >{address.address}</BodyText>
+        </div>
+      ))
+
+      }
       <div className="self-start">
-        <Button variant="outlined" href={FOOTER_DATA.main.CTA.link}>
-          <Row className="gap-[1rem] items-center">
-            <SealAgent />
-            <small className="text-[1.4rem]">
-              {" "}
-              {FOOTER_DATA.main.CTA.text}
-            </small>
-          </Row>
-        </Button>
+        <Row className="gap-[1.6rem]">
+          <Nigeria />
+          <USA />
+        </Row>
       </div>
     </Column>
   );

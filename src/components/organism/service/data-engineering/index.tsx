@@ -12,14 +12,21 @@ const DataEngineering = (props: Props) => {
     ({ items, id, title }, index) => (
       <li key={id}>
         <UtilityCardV1
+          className="hover:bg-risd-blue-700 group/data transition-colors duration-300"
           title={title}
+          titleClassName="group-hover/data:text-brandeis-blue-50"
           body={
-            <ul>
+            <ul className="mt-[2.4rem] gap-[.8rem]">
               {items.map((item, index) => (
                 <li key={index}>
-                  <Row className="gap-[.8rem]">
-                    <CheckMarkIcon />
-                    <BodyText variant="sm">{item}</BodyText>
+                  <Row className="gap-[.8rem] items-center">
+                    <CheckMarkIcon className="group-hover/data:fill-brandeis-blue-50  fill-grey-400 transition-all duration-300" />
+                    <BodyText
+                      variant="sm"
+                      className="text-grey-700 leading-[2.4rem] group-hover/data:text-grey-100 font-[400] mt-[.8rem]"
+                    >
+                      {item}
+                    </BodyText>
                   </Row>
                 </li>
               ))}
@@ -31,7 +38,7 @@ const DataEngineering = (props: Props) => {
   );
   return (
     <Container className="space-y-[3.2rem]">
-      <SectionHeaders title={DataEngineeringContents.title}/>
+      <SectionHeaders title={DataEngineeringContents.title} />
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[2.4rem]">
         {DataEngineeringCard}
       </ul>

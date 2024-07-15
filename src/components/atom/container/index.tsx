@@ -6,7 +6,7 @@ const Container = ({ children, className, ...props }: Props) => {
   return (
     <section
       {...props}
-      className={`${className} max-w-[120rem] mx-auto xl:px-0 px-6`}
+      className={` ${className} max-w-[120rem] mx-auto xl:px-0 px-6`}
     >
       {children}
     </section>

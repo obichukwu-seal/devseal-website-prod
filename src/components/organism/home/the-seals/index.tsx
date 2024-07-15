@@ -84,6 +84,8 @@ const TheSeals = (props: Props) => {
             src={items.image}
             name={items.name}
             position={items.position}
+            isHovered={isHovered.index === index && isHovered.state}
+            linkedInUrl={items.linkedIn}
           />
         </li>
       );
