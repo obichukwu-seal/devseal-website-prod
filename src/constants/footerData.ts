@@ -18,10 +18,9 @@ export const FOOTER_DATA = {
     services: {
       title: "Our Services",
       list: [
-        {name: "Artificial Intelligence", pathName:"/services/artificial-intelligence-and-machine-learning"},
-        {name:"Machine Learning", pathName:"/services/artificial-intelligence-and-machine-learning"},
+        {name: "Artificial Intelligence/ Machine Learning", pathName:"/services/artificial-intelligence-and-machine-learning"},
         {name: "Product Development", pathName:"/services/Product-Development-Services"},
-        {name: "Data Engineering/  Business Intelligence/  Advanced Analytics", pathName:""},
+        {name: "Data Management", pathName:"/services/data-management"},
 
       ],
     },
@@ -36,7 +35,7 @@ export const FOOTER_DATA = {
     contacts: {
       title: "Contact Us",
       email: "hello@devseal.tech",
-      phone: "+234 818 000 0000",
+      phone: "+234 201 330 0447",
 
     },
     CTA: {

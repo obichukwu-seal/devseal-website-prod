@@ -38,7 +38,9 @@ const DataEngineering = (props: Props) => {
   );
   return (
     <Container className="space-y-[3.2rem]">
-      <SectionHeaders title={DataEngineeringContents.title} />
+      <SectionHeaders title={DataEngineeringContents.title} className="pb-0"/>
+      <Title variant="sm"
+        className="text-grey-700 leading-[2.4rem] group-hover/data:text-grey-100 font-[400] mt-[.8rem]"> {DataEngineeringContents.subTitle} </Title>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[2.4rem]">
         {DataEngineeringCard}
       </ul>

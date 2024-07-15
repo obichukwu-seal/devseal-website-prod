@@ -30,7 +30,7 @@ export const HOME_PAGE_CONTENTS = {
       "Your Premier Software Development Team!"
     ],
     subtitle:
-      "From Startups to Industry Leaders, We are Your Technological Partner",
+      "",
     image: HeroSlideImages,
     cta: [
       {
@@ -53,7 +53,7 @@ export const HOME_PAGE_CONTENTS = {
       {
         id: "0",
         title: "Generative AI Development",
-        content: "Drive your business with our AI/ML development expertise. Automate routine tasks, streamline complex operations, and improve decision-making using artificial intelligence and machine learning.",
+        content: "Accelerate innovation and capitalize on the integration of cutting-edge AI technologies into your workflows.",
         Icon: ColorWandSvgIcon,
       },
       {
@@ -182,8 +182,8 @@ export const HOME_PAGE_CONTENTS = {
       list: [
         {
           id: "0",
-          name: "Taiwo Omosebi",
-          position: "FullStack",
+          name: "Taiwo O.",
+          position: "FullStack Engr.",
           aboutTheDeveloper: "",
           image: TaiwoImage,
           linkedIn:"https://www.linkedin.com/comm/in/taiwo-omosebi-67a8a56a"
@@ -191,31 +191,31 @@ export const HOME_PAGE_CONTENTS = {
         {
           id: "1",
           name: "Obichukwu O.",
-          position: "FullStack",
+          position: "FullStack Engr.",
           aboutTheDeveloper: "",
           image: ObichukwuImage,
           linkedIn:"https://www.linkedin.com/in/obichukwu-onyeowuzoni/"
         },
         {
           id: "2",
-          name: "Ishola Samson",
-          position: "FrontEnd",
+          name: "Samson I.",
+          position: "FrontEnd Engr.",
           aboutTheDeveloper: "",
           image: SamsonImage,
           linkedIn:"https://www.linkedin.com/in/ishola-samson-92a696167/"
         },
         {
           id: "3",
-          name: "Akintunde Afolabi",
-          position: "FrontEnd",
+          name: "Afolabi A.",
+          position: "FrontEnd Engr.",
           aboutTheDeveloper: "",
           image: AfolabImage,
           linkedIn:"https://www.linkedin.com/in/adedoyin-akintunde-9a60901b4"
         },
         {
           id: "4",
-          name: "Henry Otunuya ",
-          position: "BackEnd",
+          name: "Henry O. ",
+          position: "BackEnd Engr.",
           aboutTheDeveloper: "",
           image: HenryImage,
           linkedIn:""
@@ -223,7 +223,7 @@ export const HOME_PAGE_CONTENTS = {
         {
           id: "5",
           name: "Abdullahi S.",
-          position: "BackEnd",
+          position: "BackEnd Engr.",
           aboutTheDeveloper: "",
           image: AbdulImage,
           linkedIn:"https://www.linkedin.com/in/abdullahi-salawu/"
@@ -231,16 +231,16 @@ export const HOME_PAGE_CONTENTS = {
         },
         {
           id: "6",
-          name: "Ayorinde Smart",
-          position: "BackEnd",
+          name: "Ayorinde S.",
+          position: "BackEnd Engr.",
           aboutTheDeveloper: "",
           image: AyomideImage,
           linkedIn:"https://www.linkedin.com/in/ayorinde-g-smart/"
         },
         {
           id: "7",
-          name: "Azubuike Obi",
-          position: "BackEnd",
+          name: "Azubuike O.",
+          position: "BackEnd Engr.",
           aboutTheDeveloper: "",
           image: AzubikeImage,
           linkedIn:"https://www.linkedin.com/in/obi-azubike-87107161/"

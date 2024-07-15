@@ -8,7 +8,7 @@ const page = (props: Props) => {
     <main>
       <AimlHero />
       <AimlDevelopmentService/>
-      <DataEngineering/>
+      {/* <DataEngineering/> */}
     </main>
   );
 };

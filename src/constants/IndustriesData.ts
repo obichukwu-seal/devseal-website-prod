@@ -1,4 +1,5 @@
 import {
+  EcommerceImage,
   FinTechImage,
   FoodAndBeverageImage,
   HealthCareImage,
@@ -68,7 +69,7 @@ export const INDUSTRIES_PAGE_CONTENT = {
         id: "0",
         title: "E-commerce",
         body: "Boosting online sales with seamless, customer-centric e-commerce platforms",
-        image: FinTechImage,
+        image: EcommerceImage,
       },
     ],
   },

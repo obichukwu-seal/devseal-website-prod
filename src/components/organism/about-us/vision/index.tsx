@@ -45,6 +45,7 @@ const OurVision = (props: Props) => {
     <>
       {progress > 0 && (
         <motion.div
+          whileHover={{ scale: 1.1 }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2, delay: 0.5 }}
@@ -58,6 +59,7 @@ const OurVision = (props: Props) => {
       )}
       {progress > 2 && (
         <motion.div
+          whileHover={{ scale: 1.1 }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2, delay: 0.5 }}
@@ -75,6 +77,7 @@ const OurVision = (props: Props) => {
   const renderSecondaryContent = () => (
     progress > 1 && (
       <motion.article
+        whileHover={{ scale: 1.1 }}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: [0, 0.7, 1], y: 0 }}
         transition={{ duration: 0.2, delay: 0.5 }}
@@ -83,7 +86,7 @@ const OurVision = (props: Props) => {
         <Title variant="lg" type="h3">
           {ourVisionContent.articleOne.title}
         </Title>
-        <BodyText variant="xs">{ourVisionContent.articleOne.body}</BodyText>
+        <BodyText variant="sm">{ourVisionContent.articleOne.body}</BodyText>
       </motion.article>
     )
   );

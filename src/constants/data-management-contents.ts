@@ -25,14 +25,14 @@ export const DATA_MANAGEMENT_CONTENTS = {
           id: "0",
           title: "Data Strategy Advisory & Consultation",
           content:
-            "Drive your business with our AI/ML development expertise. Automate routine tasks, streamline complex operations, and improve decision-making using artificial intelligence and machine learning.",
+            "We provide expert guidance to develop a robust data strategy aligned with your business objectives",
           Image: Image1,
         },
         {
           id: "1",
           title: "Business Requirements Workshops",
           content:
-            "Our custom computer vision solutions equip business systems with capabilities for object detection and tracking, image and video analysis, face and character recognition.",
+            "Interactive sessions to identify and document your precise data needs.",
           Image: Image2,
         },
   
@@ -40,42 +40,42 @@ export const DATA_MANAGEMENT_CONTENTS = {
           id: "2",
           title: "Data Governance and Quality ",
           content:
-            "Let us bring the power of Artificial intelligence to enable smarter and more efficient business processes for your organization.",
+            "Ensuring data integrity, consistency, and compliance across your organization",
           Image: image3,
         },
         {
           id: "3",
           title: "Data Security, Sovereignty & Privacy",
           content:
-            "Benefit from our artificial intelligence consulting services to launch your AI project and bring your innovative business ideas to life.",
+            "Comprehensive solutions to protect your data and comply with regulatory requirements.",
           Image: image4,
         },
         {
           id: "4",
           title: "Metadata Management",
           content:
-            "Develop, deploy, scale, and maintain ML projects with unprecedented speed and efficiency. Ensure smooth and round-the-clock ML model operations with our MLOps services.",
+            "Efficient organization and utilization of data assets through effective metadata practices.",
           Image: image5,
         },
         {
           id: "5",
           title: "Data Domain & Data Product Delivery",
           content:
-            "Find better business models, new revenue streams with Machine Learning and Custom Artificial Intelligence Solutions like Virtual Assistants, Data-Driven Insights and Predictive Analytics.",
+            "Specialized delivery of tailored data solutions and products.",
           Image: image6,
         },
         {
           id: "6",
           title: "Data Architecture & Modelling",
           content:
-            "Find better business models, new revenue streams with Machine Learning and Custom Artificial Intelligence Solutions like Virtual Assistants, Data-Driven Insights and Predictive Analytics.",
+            "Designing scalable and efficient data architectures and models.",
           Image: image6,
         },
         {
           id: "7",
           title: "Data Mesh, Data Lake, Enterprise Data Warehouse",
           content:
-            "Find better business models, new revenue streams with Machine Learning and Custom Artificial Intelligence Solutions like Virtual Assistants, Data-Driven Insights and Predictive Analytics.",
+            "We specialize in implementing advanced data storage and management frameworks for optimal performance.",
           Image: image6,
         },
       ],

@@ -1,5 +1,6 @@
 import { BodyText, Column, Container, Title } from "@/components/atom";
 import { ConnectWithUS, EmailUs, GetInTouch } from "@/components/molecule";
+import PhoneUs from "@/components/molecule/phone";
 import { CONTACT_US_PAGE_CONTENT } from "@/constants";
 import React from "react";
 
@@ -23,6 +24,7 @@ const ContactUsPageContent = (props: Props) => {
           <GetInTouch />
           <Column className="gap-[7rem]">
             <EmailUs />
+            <PhoneUs />
             <ConnectWithUS />
           </Column>
         </section>

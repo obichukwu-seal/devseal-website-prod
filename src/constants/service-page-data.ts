@@ -105,7 +105,8 @@ export const SERVICE_PAGE_CONTENTS = {
       ],
     },
     subSectionTwo: {
-      title:
+      title:"Our Capabilities",
+      subTitle:
         "Data Engineering & Advanced Analytics / Business Intelligence Capabilities",
       list: [
         {
@@ -124,6 +125,11 @@ export const SERVICE_PAGE_CONTENTS = {
             "Environment design/implementation & monitoring",
             "Semantic rule & metadata definition (ontology)",
             "Data pipeline development & operation",
+            "Data Quality Management",
+            "Metadata Management",
+            "Data Security & Governance",
+            "Data Integration",
+            "Data Processing"
           ],
         },
         {
@@ -133,56 +139,66 @@ export const SERVICE_PAGE_CONTENTS = {
             "Time series forecasting",
             "Recommendation system",
             "Natural language processing",
+            "Computer vision",
+            "Speech processing",
+            "Dashboards & Reports Design & Implementation"
           ],
         },
         {
           id: 3,
           title: "Data Integration",
-          items: ["Bespoke Analytics", "Applications development"],
+          items: ["Bespoke Analytics Applications development"],
         },
         {
           id: 4,
-          title: "AI Infrastructure",
+          title: "Big Data",
           items: [
-            "Analytics vision & Use cases assessment",
-            "Evaluate new approaches & define future analytics architecture",
-            "Analytics roadmap, organization, budget",
+            "Kafka",
+            "Apache Spark",
+            "Python",
+            "Microsoft Azure Data Lake",
+            "databricks",
+            "mongoDB"
           ],
         },
         {
           id: 5,
-          title: "Data Services",
+          title: "Data Sources",
           items: [
-            "Analytics vision & Use cases assessment",
-            "Evaluate new approaches & define future analytics architecture",
-            "Analytics roadmap, organization, budget",
+            "SQL",
+            "Rest API",
+            "ORACLE",
+            "SAP",
+            "PostgreSQL"
           ],
         },
         {
           id: 6,
           title: "Cloud Data Storage",
           items: [
-            "Analytics vision & Use cases assessment",
-            "Evaluate new approaches & define future analytics architecture",
-            "Analytics roadmap, organization, budget",
+            "Azure Cosmos DB",
+            "Azure Blob Storage",
+            "Microsoft Azure Data Lake",
+            "mongoDB"
           ],
         },
         {
           id: 7,
           title: "Data Warehouse Technologies",
           items: [
-            "Analytics vision & Use cases assessment",
-            "Evaluate new approaches & define future analytics architecture",
-            "Analytics roadmap, organization, budget",
+            "Azure Synapse Analytics",
+            "Microsoft SQLServer",
+            "PostgreSQL",
           ],
         },
         {
           id: 8,
-          title: "Cloud Data Storage",
+          title: "Data Visualization",
           items: [
-            "Analytics vision & Use cases assessment",
-            "Evaluate new approaches & define future analytics architecture",
-            "Analytics roadmap, organization, budget",
+            "Qlik",
+            "Power BI",
+            "Grafana",
+            "tableau"
           ],
         },
       ],

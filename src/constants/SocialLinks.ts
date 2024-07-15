@@ -4,7 +4,7 @@ export const SOCIAL_MEDIA_LINKS = [
   {
     id: "0",
     icon: LinkedInIcon,
-    link: "https://www.linkedin.com/devseal-tech",
+    link: "https://www.linkedin.com/company/devseal/",
   },
   {
     id: "1",

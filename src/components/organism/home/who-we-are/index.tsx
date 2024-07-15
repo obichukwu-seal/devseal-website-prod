@@ -14,12 +14,12 @@ const WhoWeAre = (props: Props) => {
         body={HOME_PAGE_CONTENTS.sectionThree.sectionOne.body}
       />
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-[2.4rem]">
-        <li>
+        {/* <li>
           <VisionCard
             title={HOME_PAGE_CONTENTS.sectionThree.sectionOne.vision.title}
             body={HOME_PAGE_CONTENTS.sectionThree.sectionOne.vision.content}
           />
-        </li>
+        </li> */}
         <li className="h-full">
           <MissionCard
             title={HOME_PAGE_CONTENTS.sectionThree.sectionOne.mission.title}
