@@ -10,7 +10,7 @@ const DataManagementService = (props: Props) => {
   return (
     <Container className='space-y-[8rem] pt-[4.8rem] pb-[8rem]'>
         <SectionHeaders title={SECTION_CONTENTS.title} className='max-w-[47.4rem]' />
-            <SlideBox data={SECTION_CONTENTS.sectionItems}/>
+            <SlideBox data={SECTION_CONTENTS.sectionItems} imageOverlay={true}/>
     </Container>
   )
 }

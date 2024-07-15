@@ -4,6 +4,7 @@ import { ICardProps } from "@/components/atom/card";
 type Props = ICardProps & {
   body?: React.ReactNode;
   title?: string;
+  icon?: React.ReactNode;
   footer?: React.ReactNode;
   className?: string;
 };
@@ -12,11 +13,13 @@ const UtilityCard = ({
   body,
   footer,
   title = "",
+  icon,
   ...props
 }: Props) => {
   return (
     <Card {...props}>
       <Column className="justify-between h-full">
+        {icon && <span>{icon}</span>}
         <article className="mb-[6.5rem]">
           <Title variant="sm" type="h3" className="mb-[3.2rem] text-grey-900">
             {title}

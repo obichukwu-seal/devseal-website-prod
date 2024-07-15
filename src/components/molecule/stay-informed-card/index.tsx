@@ -26,7 +26,7 @@ const StayInformed = ({ title, body,formCta,formLabel,formPlaceholder, ...props 
             <Title variant="lg" className="text-risd-blue-900">{title}</Title>
             <BodyText>{body}</BodyText>
           </article>
-          <div className="gap-[1.6rem] flex  flex-col min-w-[48.6rem]">
+          <div className="gap-[1.6rem] flex  flex-col min-w-[45.6rem]">
             <CustomInput label={formLabel} placeholder={formPlaceholder} />
             {
               //@ts-ignore

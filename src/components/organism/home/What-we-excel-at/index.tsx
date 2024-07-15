@@ -25,22 +25,10 @@ const WhatWeExcelAt = (props: Props) => {
               <Column className="gap-[.8rem]">
                 {sectionItem.Content.map((content, index) => (
                   <li key={index} className="flex gap-[.8rem]">
-                    <CheckMarkIcon /> {content}
+                    <CheckMarkIcon className="group-hover/data:fill-brandeis-blue-50  fill-grey-400 transition-all duration-300" /> {content}
                   </li>
                 ))}
               </Column>
-            </ul>
-          }
-          footer={
-            <ul className="w-full">
-              <Row className="w-full flex-wrap gap-[3.2rem]">
-                {sectionItem.images.map((ItemImage, index) => (
-                  <li key={index}>
-                    {" "}
-                    <ItemImage />
-                  </li>
-                ))}
-              </Row>
             </ul>
           }
         />
@@ -55,12 +43,12 @@ const WhatWeExcelAt = (props: Props) => {
           <SectionHeaders title={HOME_PAGE_CONTENTS.sectionOne.title} />
           <div className="grid grid-cols-1 gap-[2.4rem] sm:grid-cols-2">
             {whatWeExcelAtCard}
-            <BecomeASealCard
+            {/* <BecomeASealCard
               title={HOME_PAGE_CONTENTS.sectionOne.CTA.title}
               buttonText={HOME_PAGE_CONTENTS.sectionOne.CTA.button.text}
               href={HOME_PAGE_CONTENTS.sectionOne.CTA.button.link}
               size="lg"
-            />
+            /> */}
           </div>
         </Column>
       </Container>

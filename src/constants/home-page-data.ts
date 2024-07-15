@@ -95,36 +95,38 @@ export const HOME_PAGE_CONTENTS = {
     sectionItems: [
       {
         id: "2",
-        title: "Cloud, Data Analytics, AI/ML",
+        title: "Web Development",
         Content: [
-          "Migrate Application to Micro-service",
-          "Architecture and deploy in OEC platform",
-          "Continuous Integration (CI)",
-          "Continuous Delivery (CD)",
-          "Continuous Testing (CT)",
-          "Metric, Monitoring & Logging (e.g: Snapshot (IT); OEC, iEnergy (Landmark)",
+          "Angular",
+          "C#",
+          "NodeJs",
+          "PostgreSQL",
+          "Java",
+          "React",
         ],
         images: Object.values(cloudImages),
       },
       {
         id: "0",
-        title: "New Products",
+        title: "Mobile Development",
         Content: [
-          "New product development & testing (Web, Windows, Android, iOS)",
-          "Major enhancement & replacement implementation (e.g. Intellisync, Snapshot Mobile)",
+          "Kotlin",
+          "React Native",
+          "Flutter & Dart",
+          "iOS Swift"
         ],
         images: Object.values(newProductImage),
       },
  
-      {
-        id: "1",
-        title: "ERP (SAP, Oracle, Dynamic 365)",
-        Content: [
-          "All level support (L1, L2, L3)",
-          "Bug fixing & change request implementation",
-        ],
-        images: Object.values(erpImages),
-      },
+      // {
+      //   id: "1",
+      //   title: "ERP (SAP, Oracle, Dynamic 365)",
+      //   Content: [
+      //     "All level support (L1, L2, L3)",
+      //     "Bug fixing & change request implementation",
+      //   ],
+      //   images: Object.values(erpImages),
+      // },
     ],
     CTA: {
       title: "How may our SEALs be of help to you?",

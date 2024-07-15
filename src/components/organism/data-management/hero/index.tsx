@@ -6,7 +6,7 @@ import { AI_ML_CONTENTS, DATA_MANAGEMENT_CONTENTS } from "@/constants";
 type Props = {};
 
 const DataManagementHero = (props: Props) => {
-  const HeroImage = AI_ML_CONTENTS.hero.image;
+  const HeroImage = DATA_MANAGEMENT_CONTENTS.hero.image;
   return (
     <section className="relative min-h-[65svh] w-full h-full ">
       {/* <div className="w-full h-full absolute  top-0 bg-gradient-to-r from-black to-[#00000041] -z-10"></div> */}

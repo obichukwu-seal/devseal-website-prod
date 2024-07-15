@@ -1,4 +1,4 @@
-import { RocketSvg, TerminalSvg } from "@/public/Service-Links";
+import { DataManagementSvg, RocketSvg, TerminalSvg } from "@/public/Service-Links";
 
 export interface ISubLinks {
   id: string;
@@ -46,7 +46,7 @@ export const NAV_LINKS: INavLinks = [
         id: "2",
         pathname: "/services/data-management",
         name: "Data Management",
-        icon: RocketSvg,
+        icon: DataManagementSvg,
       },
     ],
   },

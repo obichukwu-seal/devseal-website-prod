@@ -8,13 +8,15 @@ type DataType = {
   title: string;
   content: string;
   Image: StaticImageData;
+
 };
 type Props = {
   data: DataType[];
+  imageOverlay?: boolean;
 };
 
-const SlideBox = ({ data, ...props }: Props) => {
-    const isAboveMediumScreens = useMediaQuery("(min-width: 1024px)");
+const SlideBox = ({ data, imageOverlay, ...props }: Props) => {
+  const isAboveMediumScreens = useMediaQuery("(min-width: 1024px)");
   const [currentImage, setCurrentImage] = useState({
     index: 0,
     isHovered: true,
@@ -42,18 +44,16 @@ const SlideBox = ({ data, ...props }: Props) => {
           variant="unstyled"
           border="xs"
           rounded="sm"
-          className={`${
-            currentImage.isHovered && currentImage.index === index
-              ? "bg-risd-blue-600"
-              : "bg-transparent"
-          } transition-colors duration-300 p-[2.4rem]`}
+          className={`${currentImage.isHovered && currentImage.index === index
+            ? "bg-risd-blue-600"
+            : "bg-transparent"
+            } transition-colors duration-300 p-[2.4rem]`}
         >
           <BodyText
-            className={`${
-              currentImage.isHovered && currentImage.index === index
-                ? "text-brandeis-alt-50"
-                : "text-grey-600"
-            } transition-colors duration-300`}
+            className={`${currentImage.isHovered && currentImage.index === index
+              ? "text-brandeis-alt-50"
+              : "text-grey-600"
+              } transition-colors duration-300`}
           >
             {item.title}
           </BodyText>
@@ -65,7 +65,7 @@ const SlideBox = ({ data, ...props }: Props) => {
   useEffect(() => {
     const slideTimeout = setTimeout(() => {
       if (!isAboveMediumScreens) {
-        const randomNumber = Math.floor(Math.random() * data.length );
+        const randomNumber = Math.floor(Math.random() * data.length);
         setCurrentImage({
           index: randomNumber,
           isHovered: true,
@@ -75,25 +75,31 @@ const SlideBox = ({ data, ...props }: Props) => {
       }
     }, 100);
     return () => clearTimeout(slideTimeout);
-  }, [ isAboveMediumScreens,data]);
+  }, [isAboveMediumScreens, data]);
 
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-[12.6rem]">
       <ul className="hidden md:block space-y-[2.4rem]">{items}</ul>
       <figure className="w-full h-full overflow-hidden relative rounded-lg">
-        <Column className="absolute bottom-20 w-full gap-[1.6rem] px-[2.4rem] left-1/2 -translate-x-1/2">
-          <BodyText className="text-white">{currentImage.content}</BodyText>
-          <NavLink href={"#"} className="text-risd-blue-200">
+        <Column className="absolute bottom-20 w-full gap-[1.6rem] px-[2.4rem] left-1/2 -translate-x-1/2 z-10">
+          <BodyText className="text-white ">{currentImage.content}</BodyText>
+          <NavLink href={"/bookings"} className="text-risd-blue-200">
             Talk to a seal
           </NavLink>
         </Column>
-        <Image
-          src={currentImage.Image}
-          alt=""
-          placeholder={"blur"}
-          className="w-full h-full object-cover"
-        />
+
+        <div className="relative w-full h-full">
+          <Image
+            src={currentImage.Image}
+            alt=""
+            placeholder={"blur"}
+            className="w-full h-full object-cover"
+          />
+          {imageOverlay && <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          </div>}
+
+        </div>
       </figure>
     </div>
   );
