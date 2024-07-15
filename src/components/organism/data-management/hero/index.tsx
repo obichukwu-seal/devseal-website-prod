@@ -16,7 +16,7 @@ const DataManagementHero = (props: Props) => {
             title={DATA_MANAGEMENT_CONTENTS.hero.title}
             subtitle={DATA_MANAGEMENT_CONTENTS.hero.subtitle}
             type="left"
-            cta={AI_ML_CONTENTS.hero.cta}
+            cta={DATA_MANAGEMENT_CONTENTS.hero.cta}
           />
         </Column>
 

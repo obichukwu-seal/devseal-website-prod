@@ -16,7 +16,7 @@ export const AI_ML_CONTENTS = {
     image: { AimlHeroImage },
     cta: {
       text: "Get Started",
-      pathname: "",
+      pathname: "/bookings",
     },
   },
   sectionFour: {

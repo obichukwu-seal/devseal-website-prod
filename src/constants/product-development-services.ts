@@ -15,7 +15,7 @@ export const PRODUCT_DEVELOPMENT_SERVICE = {
     image: { ProductServiceHero },
     cta: {
       text: "Get Started",
-      pathname: "",
+      pathname: "/bookings",
     },
   },
   sectionFour: {

@@ -11,6 +11,7 @@ import {
 import { Contacts, Summary, Services, PrivacySecurity } from "@/components/molecule";
 import { FOOTER_DATA } from "@/constants";
 import { useMediaQuery } from "@/hooks";
+import Link from "next/link";
 
 import React from "react";
 
@@ -25,7 +26,9 @@ const Footer = (props: Props) => {
         {!isAboveMediumScreens ? (
           <>
             <Column className="gap-[2.5rem]">
-              <SealLogo />
+              <Link href="/">
+                <SealLogo />
+              </Link>
               <div className="self-start">
                 <Button href={FOOTER_DATA.header.CTA.link} variant="primary">
                   {FOOTER_DATA.header.CTA.text}
@@ -42,13 +45,15 @@ const Footer = (props: Props) => {
         ) : (
           <>
             <Row className="justify-between items-center">
-              <SealLogo />
+              <Link href="/">
+                <SealLogo />
+              </Link>
             </Row>
             <Row className="gap-[2.5rem] justify-between items-start mt-[1.7rem]">
               <Summary />
               <Services />
               <PrivacySecurity />
-              <Contacts position="right"/>
+              <Contacts position="right" />
             </Row>
           </>
         )}

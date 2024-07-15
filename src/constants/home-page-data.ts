@@ -183,39 +183,39 @@ export const HOME_PAGE_CONTENTS = {
         {
           id: "0",
           name: "Taiwo Omosebi",
-          position: "BRAVO Engr. - FullStack",
+          position: "FullStack",
           aboutTheDeveloper: "",
           image: TaiwoImage,
-          linkedIn:""
+          linkedIn:"https://www.linkedin.com/comm/in/taiwo-omosebi-67a8a56a"
         },
         {
           id: "1",
-          name: "Obichukwu Onye",
-          position: "BRAVO Engr. - FullStack",
+          name: "Obichukwu O.",
+          position: "FullStack",
           aboutTheDeveloper: "",
           image: ObichukwuImage,
-          linkedIn:""
+          linkedIn:"https://www.linkedin.com/in/obichukwu-onyeowuzoni/"
         },
         {
           id: "2",
           name: "Ishola Samson",
-          position: "BRAVO Engr. - FrontEnd",
+          position: "FrontEnd",
           aboutTheDeveloper: "",
           image: SamsonImage,
-          linkedIn:""
+          linkedIn:"https://www.linkedin.com/in/ishola-samson-92a696167/"
         },
         {
           id: "3",
           name: "Akintunde Afolabi",
-          position: "CHARLIE Engr. - FrontEnd",
+          position: "FrontEnd",
           aboutTheDeveloper: "",
           image: AfolabImage,
-          linkedIn:""
+          linkedIn:"https://www.linkedin.com/in/adedoyin-akintunde-9a60901b4"
         },
         {
           id: "4",
           name: "Henry Otunuya ",
-          position: "CHARLIE Engr. - BackEnd",
+          position: "BackEnd",
           aboutTheDeveloper: "",
           image: HenryImage,
           linkedIn:""
@@ -223,27 +223,27 @@ export const HOME_PAGE_CONTENTS = {
         {
           id: "5",
           name: "Abdullahi S.",
-          position: "CHARLIE Engr. - BackEnd",
+          position: "BackEnd",
           aboutTheDeveloper: "",
           image: AbdulImage,
-          linkedIn:""
+          linkedIn:"https://www.linkedin.com/in/abdullahi-salawu/"
 
         },
         {
           id: "6",
           name: "Ayorinde Smart",
-          position: "CHARLIE Engr. - BackEnd",
+          position: "BackEnd",
           aboutTheDeveloper: "",
           image: AyomideImage,
-          linkedIn:""
+          linkedIn:"https://www.linkedin.com/in/ayorinde-g-smart/"
         },
         {
           id: "7",
           name: "Azubuike Obi",
-          position: "CHARLIE Engr. - BackEnd",
+          position: "BackEnd",
           aboutTheDeveloper: "",
           image: AzubikeImage,
-          linkedIn:""
+          linkedIn:"https://www.linkedin.com/in/obi-azubike-87107161/"
         },
       ],
       callToAction: {

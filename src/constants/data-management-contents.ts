@@ -15,11 +15,11 @@ export const DATA_MANAGEMENT_CONTENTS = {
       image: { AimlHeroImage },
       cta: {
         text: "Get Started",
-        pathname: "",
+        pathname: "/bookings",
       },
     },
     sectionFour: {
-      title: "AI/ML Development Services",
+      title: "Data Management Services",
       sectionItems: [
         {
           id: "0",
