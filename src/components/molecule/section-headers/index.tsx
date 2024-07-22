@@ -1,9 +1,10 @@
+"use client"
 import { BodyText, Title } from "@/components/atom";
 import React, {HTMLAttributes}from "react";
 
 type Props = HTMLAttributes<HTMLHeadingElement> & {
   title?: string;
-  body?: string;
+  body?: string | JSX.Element;
   titleClassName?: string;
   bodyClassName?: string;
 };
@@ -18,5 +19,6 @@ const SectionHeaders = ({ title = "", body = "",titleClassName="", bodyClassName
     </header>
   );
 };
+
 
 export default SectionHeaders;

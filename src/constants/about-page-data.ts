@@ -15,7 +15,7 @@ export const ABOUT_PAGE_CONTENT = {
     body: "Build a team that is uncompromising in delivering information technology excellence with military precision.",
     articleOne: {
       title:
-        "Hiring of \" The Elite Eight '' and Signing Client One",
+        "Hiring \"The Elite Eight\"",
       body: "we deliver world-class digital solutions for international corporate clients from our base in Lagos, Nigeria and Texas, USA. Our belief in the potential of Africa's youth has been richly rewarded. The spirit of excellence, dedication, and hard work shines through each SEAL as they engage with clients locally and globally.",
     },
     articleTwo: {

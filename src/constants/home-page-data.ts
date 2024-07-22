@@ -19,7 +19,14 @@ import {
   RocketIcon,
   StoreFrontIcon,
 } from "@/public/solution-seekers-icon";
-import { BulbSvgIcon, ColorWandSvgIcon, ExtensionPuzzleSvgIcon, EyeSvgIcon, ServerSvgIcon, SpeedoMeterSvgIcon } from "@/public/AL";
+import {
+  BulbSvgIcon,
+  ColorWandSvgIcon,
+  ExtensionPuzzleSvgIcon,
+  EyeSvgIcon,
+  ServerSvgIcon,
+  SpeedoMeterSvgIcon,
+} from "@/public/AL";
 
 export const HOME_PAGE_CONTENTS = {
   hero: {
@@ -27,68 +34,72 @@ export const HOME_PAGE_CONTENTS = {
     titles: [
       "Artificial Intelligence and Machine Learning",
       "Software Product Development",
-      "Your Premier Software Development Team!"
+      "Your Premier Software Development Team!",
     ],
-    subtitle:
-      "",
+    subtitle: "",
     image: HeroSlideImages,
     cta: [
       {
-        text:"learn more",
-        pathname:"/services/artificial-intelligence-and-machine-learning"
+        text: "learn more",
+        pathname: "/services/artificial-intelligence-and-machine-learning",
       },
       {
-        text:"learn more",
-        pathname:"services/Product-Development-Services"
+        text: "learn more",
+        pathname: "services/Product-Development-Services",
       },
       {
-        text:"learn more",
-        pathname:"/about-us"
-      }
-    ]
+        text: "learn more",
+        pathname: "/about-us",
+      },
+    ],
   },
-  sectionFour:{
+  sectionFour: {
     title: "AI/ML Development Services",
     sectionItems: [
       {
         id: "0",
         title: "Generative AI Development",
-        content: "Accelerate innovation and capitalize on the integration of cutting-edge AI technologies into your workflows.",
+        content:
+          "Accelerate innovation and capitalize on the integration of cutting-edge AI technologies into your workflows.",
         Icon: ColorWandSvgIcon,
       },
       {
         id: "1",
         title: "Computer Vision Development",
-        content: "Our custom computer vision solutions equip business systems with capabilities for object detection and tracking, image and video analysis, face and character recognition.",
+        content:
+          "Our custom computer vision solutions equip business systems with capabilities for object detection and tracking, image and video analysis, face and character recognition.",
         Icon: EyeSvgIcon,
       },
- 
+
       {
         id: "2",
         title: "Intelligent Automation",
-        content: "Let us bring the power of Artificial intelligence to enable smarter and more efficient business processes for your organization.",
+        content:
+          "Let us bring the power of Artificial intelligence to enable smarter and more efficient business processes for your organization.",
         Icon: SpeedoMeterSvgIcon,
       },
       {
         id: "3",
         title: "AI Consulting",
-        content: "Benefit from our artificial intelligence consulting services to launch your AI project and bring your innovative business ideas to life.",
+        content:
+          "Benefit from our artificial intelligence consulting services to launch your AI project and bring your innovative business ideas to life.",
         Icon: BulbSvgIcon,
       },
       {
         id: "4",
         title: "MLOps Services",
-        content: "Develop, deploy, scale, and maintain ML projects with unprecedented speed and efficiency. Ensure smooth and round-the-clock ML model operations with our MLOps services.",
+        content:
+          "Develop, deploy, scale, and maintain ML projects with unprecedented speed and efficiency. Ensure smooth and round-the-clock ML model operations with our MLOps services.",
         Icon: ServerSvgIcon,
       },
       {
         id: "0",
         title: "Custom AI Solutions",
-        content: "Find better business models, new revenue streams with Machine Learning and Custom Artificial Intelligence Solutions like Virtual Assistants, Data-Driven Insights and Predictive Analytics.",
+        content:
+          "Find better business models, new revenue streams with Machine Learning and Custom Artificial Intelligence Solutions like Virtual Assistants, Data-Driven Insights and Predictive Analytics.",
         Icon: ExtensionPuzzleSvgIcon,
       },
     ],
-    
   },
   sectionOne: {
     title: "Software Product Development",
@@ -96,28 +107,16 @@ export const HOME_PAGE_CONTENTS = {
       {
         id: "2",
         title: "Web Development",
-        Content: [
-          "Angular",
-          "C#",
-          "NodeJs",
-          "PostgreSQL",
-          "Java",
-          "React",
-        ],
+        Content: ["Angular", "C#", "NodeJs", "PostgreSQL", "Java", "React"],
         images: Object.values(cloudImages),
       },
       {
         id: "0",
         title: "Mobile Development",
-        Content: [
-          "Kotlin",
-          "React Native",
-          "Flutter & Dart",
-          "iOS Swift"
-        ],
+        Content: ["Kotlin", "React Native", "Flutter & Dart", "iOS Swift"],
         images: Object.values(newProductImage),
       },
- 
+
       // {
       //   id: "1",
       //   title: "ERP (SAP, Oracle, Dynamic 365)",
@@ -162,10 +161,14 @@ export const HOME_PAGE_CONTENTS = {
       },
     ],
   },
+
   sectionThree: {
     sectionOne: {
       title: "Who we are",
-      body: "We started devSEAL Technologies because we believed that the best and brightest product engineers can come from anywhere in the world, including Africa",
+      email: "hello@devseal.tech",
+      body: 'At <b>devSEAL</b> Technologies, we build and deliver world-class digital products to customers around the world. Our team of software engineers, also referred to as <b>"The SEALS"</b>, are uncompromising to our core values of Trust, Integrity, Excellence & Dedication. While we are experts at digital solution delivery, we also excel at customer satisfaction as demonstrated in customer feedback & loyalty. <br/><br/> We operate from our best cost locations in Africa and the United States, and continue to grow our team as we pursue our mission of delivering Information Technology Excellence with Military Precision. <br/> <br/> Let us earn your trust by showing you what our SEAL\'s are capable of. Reach out today at <span>hello@devseal.tech</span>',
+      body2:
+        "We started devSEAL Technologies because we believed that the best and brightest product engineers can come from anywhere in the world, including Africa",
       vision: {
         title: "Our Vision",
         content:
@@ -188,7 +191,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "FullStack Engr.",
           aboutTheDeveloper: "",
           image: TaiwoImage,
-          linkedIn:"https://www.linkedin.com/comm/in/taiwo-omosebi-67a8a56a"
+          linkedIn: "https://www.linkedin.com/comm/in/taiwo-omosebi-67a8a56a",
         },
         {
           id: "1",
@@ -196,7 +199,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "FullStack Engr.",
           aboutTheDeveloper: "",
           image: ObichukwuImage,
-          linkedIn:"https://www.linkedin.com/in/obichukwu-onyeowuzoni/"
+          linkedIn: "https://www.linkedin.com/in/obichukwu-onyeowuzoni/",
         },
         {
           id: "2",
@@ -204,7 +207,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "FrontEnd Engr.",
           aboutTheDeveloper: "",
           image: SamsonImage,
-          linkedIn:"https://www.linkedin.com/in/ishola-samson-92a696167/"
+          linkedIn: "https://www.linkedin.com/in/ishola-samson-92a696167/",
         },
         {
           id: "3",
@@ -212,7 +215,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "FrontEnd Engr.",
           aboutTheDeveloper: "",
           image: AfolabImage,
-          linkedIn:"https://www.linkedin.com/in/adedoyin-akintunde-9a60901b4"
+          linkedIn: "https://www.linkedin.com/in/adedoyin-akintunde-9a60901b4",
         },
         {
           id: "4",
@@ -220,7 +223,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "BackEnd Engr.",
           aboutTheDeveloper: "",
           image: HenryImage,
-          linkedIn:""
+          linkedIn: "https://www.linkedin.com/in/henry-chukwudi-596a39316",
         },
         {
           id: "5",
@@ -228,8 +231,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "BackEnd Engr.",
           aboutTheDeveloper: "",
           image: AbdulImage,
-          linkedIn:"https://www.linkedin.com/in/abdullahi-salawu/"
-
+          linkedIn: "https://www.linkedin.com/in/abdullahi-salawu/",
         },
         {
           id: "6",
@@ -237,7 +239,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "BackEnd Engr.",
           aboutTheDeveloper: "",
           image: AyomideImage,
-          linkedIn:"https://www.linkedin.com/in/ayorinde-g-smart/"
+          linkedIn: "https://www.linkedin.com/in/ayorinde-g-smart/",
         },
         {
           id: "7",
@@ -245,7 +247,7 @@ export const HOME_PAGE_CONTENTS = {
           position: "BackEnd Engr.",
           aboutTheDeveloper: "",
           image: AzubikeImage,
-          linkedIn:"https://www.linkedin.com/in/obi-azubike-87107161/"
+          linkedIn: "https://www.linkedin.com/in/azubike-augustine-45a892319",
         },
       ],
       callToAction: {
