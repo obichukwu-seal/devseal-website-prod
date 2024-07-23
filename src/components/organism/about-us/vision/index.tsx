@@ -57,6 +57,16 @@ const OurVision = (props: Props) => {
           <BodyText variant="xs">{ourVisionContent.body}</BodyText>
         </motion.div>
       )}
+      {
+        progress > 1 && (
+          <div className=" space-y-[1.6rem] md:hidden my-[4rem]">
+            <Title variant="lg" type="h2">
+              {ourVisionContent.articleOne.title}
+            </Title>
+            <BodyText variant="sm">{ourVisionContent.articleOne.body}</BodyText>
+          </div>
+        )
+      }
       {progress > 2 && (
         <motion.div
           whileHover={{ scale: 1.1 }}
@@ -108,12 +118,14 @@ const OurVision = (props: Props) => {
   );
 
   return (
-    <section className="pt-[4rem] bg-grey-alt-2 h-[70.4rem]" ref={containerRef}>
+    <section className="pt-[4rem] bg-grey-alt-2 h-[70.4rem] mb-[10rem] md:mb-0" ref={containerRef}>
       <Container className="min-h-[61rem] grid grid-cols-1 sm:grid-cols-2 items-center relative justify-between gap-[8.2rem]">
         <article className="h-full flex flex-col justify-between col-span-2 md:col-span-1">
           {renderContent()}
         </article>
+
         {renderSecondaryContent()}
+
         <motion.span
           initial={{ height: 0 }}
           animate={{ height: `${calculateHeight()}rem` }}

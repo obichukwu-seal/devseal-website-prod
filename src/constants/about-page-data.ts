@@ -11,7 +11,7 @@ export const ABOUT_PAGE_CONTENT = {
       "We believe the best product engineers can come from anywhere in the world, including Africa",
   },
   sectionOne: {
-    title: "Our vision was simple",
+    title: "Our mission was simple",
     body: "Build a team that is uncompromising in delivering information technology excellence with military precision.",
     articleOne: {
       title:

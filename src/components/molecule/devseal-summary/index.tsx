@@ -8,7 +8,7 @@ type Props = {};
 
 const Summary = (props: Props) => {
   return (
-    <Column className="gap-[2.5rem] max-w-[30.5rem]">
+    <Column className="gap-[2.5rem] max-w-[33rem]">
       {FOOTER_DATA.main.address.map((address, index) => (
        <Link key={index}  href={address.pathName} target="_blank">
           <BodyText variant="sm" className="text-white" >{address.region}</BodyText>
