@@ -19,7 +19,7 @@ export const ABOUT_PAGE_CONTENT = {
       body: "we deliver world-class digital solutions for international corporate clients from our base in Lagos, Nigeria and Texas, USA. Our belief in the potential of Africa's youth has been richly rewarded. The spirit of excellence, dedication, and hard work shines through each SEAL as they engage with clients locally and globally.",
     },
     articleTwo: {
-      title: "Growth & Evoluation",
+      title: "Growth & Evolution",
       body: "We continue to add more SEAL's to the team to meet the demands of the mission. As we move forward, our commitment to excellence and innovation remains steadfast. We envision a future where devSEAL is a leading force in the global tech landscape as we push our way into more industries and territories.",
     },
   },
