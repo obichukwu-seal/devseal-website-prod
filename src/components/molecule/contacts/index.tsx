@@ -20,9 +20,6 @@ const Contacts = (props: Props) => {
         <NavLink href={"mailto:hello@devseal.tech"}>
           <BodyText variant="xs" className="text-grey-200">{FOOTER_DATA.main.contacts.email}</BodyText>
         </NavLink>
-        <NavLink href={`tel:${FOOTER_DATA.main.contacts.phone}`}>
-          <BodyText variant="xs" className="text-grey-200">{FOOTER_DATA.main.contacts.phone}</BodyText>
-        </NavLink>
         <Row className={"gap-[1rem] items-center " + (props.position === "right" ? 'justify-end': 'justify-start')}>
           <Row className="gap-[1.5rem] items-center ">{socialLink}</Row>
           <BodyText className="text-grey-200">devSEAL</BodyText>
