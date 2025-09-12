@@ -8,7 +8,7 @@ import DataMesh from './data-mesh-data-lake-enterprise-data-warehouse.jpg'
 import DataSecurity from "./data-security-sovereignty-privacy.jpg"
 import DataStrategy from './data-strategy-advisory-consultation.jpg'
 import MetaData from './metadata-management.jpg'
-import DataManagementHero from "./data_management.jpeg"
+import DataManagementHero from "./data_management.jpg"
 
 type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
 

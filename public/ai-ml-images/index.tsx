@@ -5,7 +5,7 @@ import image3 from "./futuristic-scene-with-high-tech-robot-used-construction-in
 import image4 from "./business-leader-interviewing-job-candidate 1.jpg";
 import image5 from "./mlops.jpg";
 import image6 from "./ai-nuclear-energy-background-future-innovation-disruptive-technology.jpg";
-import HeroImage from "./AimlHeroImage.jpg"
+import HeroImage from "./AimlHeroImage.png"
 
 type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
 
