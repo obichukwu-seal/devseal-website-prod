@@ -3,7 +3,7 @@ import Image1 from "./IMG 1.jpg";
 import Image2 from "./1719568994631_110330.jpg";
 import image3 from "./image2.jpg";
 import Her1 from "./hero image.png"
-import Her2 from "./her2.png"
+import Her2 from "./her2.jpg"
 import Her3 from "./hero image.jpg"
 
 type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
