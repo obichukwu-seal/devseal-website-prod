@@ -14,7 +14,7 @@ const EmailUs = ({
   ...props
 }: Props) => {
   return (
-    <Column className="items-end">
+    <Column className="md:items-end items-center">
       <BodyText variant="md">{title}</BodyText>
       <NavLink href={`mailto:${email}`}>
         <Title variant="md" type="h3" className="text-right">

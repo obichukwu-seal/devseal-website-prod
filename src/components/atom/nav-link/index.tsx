@@ -12,7 +12,7 @@ const NavLink = ({ children, ...props }: Props) => {
   const pathname = usePathname();
   const isActive = `${
     typeof props.href === "string" &&
-    (pathname === props.href ? "text-risd-blue-500" : "text-grey-500")
+    (pathname === props.href ? "text-risd-blue-500" : "text-grey-100")
   }`;
   return (
     <Link

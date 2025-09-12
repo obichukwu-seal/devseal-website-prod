@@ -1,7 +1,7 @@
 "use client";
 import { Button, Column, NavCard, NavLink, Row } from "@/components/atom";
 import { BRAND_COLORS, ISubLinks, NAV_LINKS } from "@/constants";
-import { SealLogo } from "@/public/index";
+import { SealLogoWhite } from "@/public/index";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -27,7 +27,7 @@ const NavBarRow = (props: Props) => {
   return (
     <Row className="justify-between hidden lg:flex gap-[2.5rem] items-center">
       <Link href={"/"}>
-        <SealLogo />
+        <SealLogoWhite />
       </Link>
       <ul>
         <Row className="gap-[2.5rem]">{navItems}</Row>

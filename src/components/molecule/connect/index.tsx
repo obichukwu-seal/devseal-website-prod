@@ -12,7 +12,7 @@ const ConnectWithUS = ({ ...props }: Props) => {
     </Link>
   ));
   return (
-    <Column className="items-end gap-[1.6rem]">
+    <Column className="md:items-end items-center gap-[1.6rem]">
       <BodyText variant="md">Connect on socials</BodyText>
       <Row className="gap-[.8remrem] items-end">
         <Row className="gap-[1.6rem] items-center">{socialLink}</Row>

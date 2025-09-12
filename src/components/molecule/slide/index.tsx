@@ -16,7 +16,7 @@ const HeroSlider = ({ images, ...props }: Props) => {
   const image = Object.values(images).map((Img, idx) => (
     <Img
       key={idx}
-      className={`absolute top-0 left-0 w-full h-full ${slideTimeout === idx ? "translate-x-0" : "translate-x-full"
+      className={`absolute top-0 left-0 w-full h-full opacity-65 ${slideTimeout === idx ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-500 object-cover`}
     />
   ));
@@ -30,12 +30,11 @@ const HeroSlider = ({ images, ...props }: Props) => {
 
   const handleSingleSlide = (idx: number) => {
     setSlideTimeout(idx);
-    console.log("calling");
   };
   const FirstImage = Object.values(images)[0];
   return (
     <>
-      <figure className={"absolute top-0 w-full h-full bg-black overflow-hidden " + (Object.values(images).length > 1 ? '-z-0' : '-z-10')}>
+      <figure className={"absolute top-0 w-full h-full  overflow-hidden " + (Object.values(images).length > 1 ? '-z-0' : '-z-10')}>
         {Object.values(images).length > 1 && <div className="absolute z-[100] h-full w-full">
 
           <Column className="h-full min-h-[65svh] justify-center mx-auto max-w-[120rem]">

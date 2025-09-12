@@ -8,6 +8,7 @@ import {
   Container,
   SectionHelpCard,
   StayInformed,
+  ClientSection,
 } from "@/components";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -30,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={plusJakartaSans.className}>
+      <body className={`${plusJakartaSans.className} from-slate-900 via-blue-900 to-slate-900 bg-gradient-to-br`}>
         <ScrollToTop />
         <div className="w-full h-full min-h-[100svh] flex flex-col justify-between">
           <header>
@@ -38,6 +39,7 @@ export default function RootLayout({
           </header>
           {children}
           <SectionHelpCard />
+          <ClientSection/>
           <StayInformed
             title={STAY_INFORMED_CONTENT.title}
             body={STAY_INFORMED_CONTENT.content}

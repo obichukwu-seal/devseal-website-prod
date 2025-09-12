@@ -14,7 +14,7 @@ const PhoneUs = ({
   ...props
 }: Props) => {
   return (
-    <Column className="items-end">
+    <Column className="md:items-end items-center">
       <BodyText variant="md">{title}</BodyText>
       <NavLink href={`tel:${phone}`}>
         <Title variant="md" type="h3" className="text-right">
