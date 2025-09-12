@@ -4,7 +4,7 @@ import image2 from "./programming-background-collage.jpg";
 import image3 from "./programming-background-with-person-working-with-codes-computer.jpg";
 import image4 from "./software-programer-pointing-pencil-source-code-computer-screen-explaining-algorithm-coworker-standing-desk-programmers-discussing-online-cloud-computing-with-team.jpg";
 import image5 from "./representation-user-experience-interface-design 1.jpg";
-import HeroImage from "./services imagev2 1@3x.png"
+import HeroImage from "./services imagev2 1@3x.jpg"
 
 type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
 
