@@ -1,5 +1,5 @@
 import { DataManagementSvg, RocketSvg, TerminalSvg } from "@/public/Service-Links";
-
+import {Bot} from "lucide-react"
 export interface ISubLinks {
   id: string;
   pathname: string;
@@ -64,5 +64,30 @@ export const NAV_LINKS: INavLinks = [
     id: "5",
     pathname: "/contact-us",
     name: "Contact us",
+  },
+  {
+    id: "6",
+    pathname: "/products",
+    name: "Products",
+    subLinks: [
+      {
+        id: "0",
+        pathname: "https://www.pensiondata.ai",
+        name: "Pension AI",
+        icon: Bot,
+      },
+      // {
+      //   id: "1",
+      //   pathname: "/services/Product-Development-Services",
+      //   name: "Product Development Services",
+      //   icon: RocketSvg,
+      // },
+      // {
+      //   id: "2",
+      //   pathname: "/services/data-management",
+      //   name: "Data Management",
+      //   icon: DataManagementSvg,
+      // },
+    ],
   },
 ];

@@ -88,15 +88,15 @@ const NavBarColumn = ({ open, close, isOpen = false }: Props) => {
 
   return (
     <Column
-      className={`gap-[2.5rem] w-full z-[999] justify-between flex lg:hidden px-10 h-full bg-white ${
+      className={`gap-[2.5rem] w-full z-[999] justify-between flex lg:hidden px-10 py-6 h-full bg-white ${
         isOpen ? "absolute top-0 left-0 " : ""
       }`}
     >
       <span>
         <Row className="justify-between gap-[2.5rem]">
-          <Link href={"/"}>
+        <div>  <Link href={"/"}>
           <SealLogoNameExcludedColored />
-          </Link>
+          </Link></div>
           {!isOpen ? (
             <HamburgerBtn onClick={open} />
           ) : (
