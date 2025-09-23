@@ -33,6 +33,9 @@ const Aiml = (props: Props) => {
   return (
     <div className="w-full  bg-grey-alt-2">
       <Container className=" pt-[4.7rem] pb-[5.6rem]">
+      <span className="inline-block mb-4 bg-green-600/20 text-green-400 border border-green-500/30 px-3 py-1 rounded-full text-[1.4rem] font-medium">
+        Services
+      </span>
         <Column className="gap-[4.8rem]">
           <SectionHeaders title={PAGE_CONTENT.title} />
           <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[2.4rem] list-none">

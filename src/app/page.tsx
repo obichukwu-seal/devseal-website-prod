@@ -1,16 +1,25 @@
-import { Aiml, BrandThatTrustUs, DataEngineering, HomepageHero, SolutionSeekers, WhatWeExcelAt, WhoWeAre } from "@/components";
-import { TRUSTED_BRAND_SECTION } from "@/constants";
+import {
+  Aiml,
+  DataEngineering,
+  HomepageHero,
+  ProductSec,
+  SolutionSeekers,
+  WhatWeExcelAt,
+  WhoWeAre,
+} from "@/components";
 
 export default function Home() {
   return (
     <main>
       <HomepageHero />
-      <Aiml/>
+      <Aiml />
       <WhatWeExcelAt />
-      <DataEngineering/>
-      <SolutionSeekers/>
+      <ProductSec />
+      <DataEngineering />
+      <SolutionSeekers />
+   
       <div className="w-full bg-grey-alt-2 py-[6.4rem]">
-        <WhoWeAre/>
+        <WhoWeAre />
       </div>
     </main>
   );

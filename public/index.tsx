@@ -21,7 +21,9 @@ import industriesHeroImage from "./industries-hero-image.jpg";
 import Mission from "./missionImage.svg";
 import LinkedIn from "./LinkedIn.svg";
 import HoveredLinkedIn from "./LinkedInSvgHovered.svg";
-import { motion } from "framer-motion";
+import Consult from "./new-images/consult.png"
+import WhoWeAre from "./new-images/who-we-are.jpg"
+import ContactWoman from "./new-images/call.png"
 
 export type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
 type prop = SVGProps<SVGSVGElement>;
@@ -94,6 +96,16 @@ export const SealAgentLarge = (props: prop) => {
 };
 export const Tied = (props: NewImageProp) => {
   return <Image src={TiedSvg} alt="Tied" placeholder={"empty"} {...props} />;
+};
+export const ConsultImage = (props: NewImageProp) => {
+  return <Image src={Consult} alt="Consult" placeholder={"empty"} {...props} />;
+};
+
+export const WhoWeAreImage = (props: NewImageProp) => {
+  return <Image src={WhoWeAre} alt="Who we are" placeholder={"empty"} {...props} />;
+};
+export const ContactWomanImage = (props: NewImageProp) => {
+  return <Image src={ContactWoman} alt="Contact us" placeholder={"empty"} {...props} />;
 };
 
 export const MissionImage = (props: prop) => {

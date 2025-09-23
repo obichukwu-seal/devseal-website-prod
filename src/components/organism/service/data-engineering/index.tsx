@@ -12,9 +12,9 @@ const DataEngineering = (props: Props) => {
     ({ items, id, title }, index) => (
       <li key={id}>
         <UtilityCardV1
-          className="hover:bg-risd-blue-700 group/data transition-colors duration-300"
+          className="bg-slate-800/50 border border-slate-700 backdrop-blur-sm rounded-lg p-6 pb-14"
           title={title}
-          titleClassName="group-hover/data:text-brandeis-blue-50"
+          titleClassName="group-hover/data:text-brandeis-blue-50 text-grey-200"
           body={
             <ul className="mt-[2.4rem] gap-[.8rem]">
               {items.map((item, index) => (
@@ -23,7 +23,7 @@ const DataEngineering = (props: Props) => {
                     <CheckMarkIcon className="group-hover/data:fill-brandeis-blue-50  fill-grey-400 transition-all duration-300" />
                     <BodyText
                       variant="sm"
-                      className="text-grey-700 leading-[2.4rem] group-hover/data:text-grey-100 font-[400] mt-[.8rem]"
+                      className="text-grey-100 leading-[2.4rem] group-hover/data:text-grey-100 font-[400] mt-[.8rem]"
                     >
                       {item}
                     </BodyText>
@@ -37,10 +37,10 @@ const DataEngineering = (props: Props) => {
     )
   );
   return (
-    <Container className="space-y-[3.2rem]">
-      <SectionHeaders title={DataEngineeringContents.title} className="pb-0"/>
+    <Container className="space-y-[3.2rem] py-20">
+      <SectionHeaders title={DataEngineeringContents.title} className="pb-0" titleClassName="text-grey-100"/>
       <Title variant="sm"
-        className="text-grey-700 leading-[2.4rem] group-hover/data:text-grey-100 font-[400] mt-[.8rem]"> {DataEngineeringContents.subTitle} </Title>
+        className="text-grey-200 leading-[2.4rem] group-hover/data:text-grey-100 font-[400] mt-[.8rem]"> {DataEngineeringContents.subTitle} </Title>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[2.4rem]">
         {DataEngineeringCard}
       </ul>

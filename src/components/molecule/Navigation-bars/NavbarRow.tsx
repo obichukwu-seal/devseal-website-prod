@@ -1,7 +1,7 @@
 "use client";
 import { Button, Column, NavCard, NavLink, Row } from "@/components/atom";
 import { BRAND_COLORS, ISubLinks, NAV_LINKS } from "@/constants";
-import { SealLogo } from "@/public/index";
+import { SealLogoWhite } from "@/public/index";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -27,13 +27,13 @@ const NavBarRow = (props: Props) => {
   return (
     <Row className="justify-between hidden lg:flex gap-[2.5rem] items-center">
       <Link href={"/"}>
-        <SealLogo />
+        <SealLogoWhite />
       </Link>
       <ul>
         <Row className="gap-[2.5rem]">{navItems}</Row>
         {sublinks && (
           <NavCard
-            classsName="absolute mt-4"
+            classsName="absolute mt-4  left-1/2 -translate-x-1/2 w-1/2"
             onMouseLeave={() => setSubLinks(undefined)}
           >
             {sublinks.map(({ icon: Icon, id, name, pathname }, index) => (
@@ -43,12 +43,12 @@ const NavBarRow = (props: Props) => {
                     <Icon
                       className={`group-hover/icon:fill-brandeis-blue-600 fill-grey-400 size-[2.4rem]`}
                     />
-                    <NavLink
+                    <Link
                       href={pathname}
-                      className="group-hover/icon:text-brandeis-blue-600"
+                      className="group-hover/icon:text-brandeis-blue-600 text-grey-400"
                     >
                       {name}
-                    </NavLink>
+                    </Link>
                   </Row>
                 </Column>
               </li>

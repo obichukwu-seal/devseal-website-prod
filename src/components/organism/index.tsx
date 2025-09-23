@@ -12,5 +12,7 @@ export * from "./book"
 export * from "./ai-ml"
 export * from "./data-management"
 export * from "./product-development-services"
+import ProductSec from "./product-sec/index"
+export * from "./clientsec"
 
-export { NavBar, Footer, SectionHelpCard, BrandThatTrustUs, WhoWeAre };
+export { NavBar, Footer, SectionHelpCard, BrandThatTrustUs, WhoWeAre, ProductSec };

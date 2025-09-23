@@ -10,9 +10,9 @@ const ProductHero = (props: Props) => {
   const HeroImage = PRODUCT_DEVELOPMENT_SERVICE.hero.image;
   const splitedTitle = PRODUCT_DEVELOPMENT_SERVICE.hero.title.split("'");
   return (
-    <section className="relative min-h-[65svh] w-full h-full ">
-      <Container className=" h-full min-h-[65svh] z-50">
-        <Column className="h-full min-h-[65svh] justify-center z-50">
+    <section className="relative min-h-[90svh] w-full h-full ">
+      <Container className=" h-full min-h-[90svh] z-50">
+        <Column className="h-full min-h-[90svh] justify-center z-50">
           <HeroHeadingTitle
             title={
               <>

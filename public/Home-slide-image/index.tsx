@@ -2,16 +2,19 @@ import Image, { ImageProps } from "next/image";
 import Image1 from "./IMG 1.jpg";
 import Image2 from "./1719568994631_110330.jpg";
 import image3 from "./image2.jpg";
+import Her1 from "./hero image.png"
+import Her2 from "./her2.jpg"
+import Her3 from "./hero image.jpg"
 
 type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
 
 export const HomeImageOne = (props: NewImageProp) => {
-  return <Image src={Image1} alt="" placeholder={"empty"} {...props} />;
+  return <Image src={Her3} alt="" placeholder={"empty"} className={`${props.className} `} {...props} />;
 };
 export const HomeImageTwo = (props: NewImageProp) => {
   return <Image src={Image2} alt="" placeholder={"blur"} {...props} />;
 };
 
 export const HomeImageThree = (props: NewImageProp) => {
-  return <Image src={image3} alt="" placeholder={"blur"} {...props} />;
+  return <Image src={Her2} alt="" placeholder={"blur"} {...props} />;
 };
