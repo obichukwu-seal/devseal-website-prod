@@ -43,12 +43,12 @@ const NavBarRow = (props: Props) => {
                     <Icon
                       className={`group-hover/icon:fill-brandeis-blue-600 fill-grey-400 size-[2.4rem]`}
                     />
-                    <NavLink
+                    <Link
                       href={pathname}
-                      className="group-hover/icon:text-brandeis-blue-600 text-grey-300"
+                      className="group-hover/icon:text-brandeis-blue-600 text-grey-400"
                     >
                       {name}
-                    </NavLink>
+                    </Link>
                   </Row>
                 </Column>
               </li>

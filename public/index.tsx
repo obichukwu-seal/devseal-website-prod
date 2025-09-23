@@ -22,7 +22,7 @@ import Mission from "./missionImage.svg";
 import LinkedIn from "./LinkedIn.svg";
 import HoveredLinkedIn from "./LinkedInSvgHovered.svg";
 import Consult from "./new-images/consult.png"
-import WhoWeAre from "./new-images/who-we-are.png"
+import WhoWeAre from "./new-images/who-we-are.jpg"
 import ContactWoman from "./new-images/call.png"
 
 export type NewImageProp = Omit<ImageProps, "src" | "placeholder" | "alt">;
