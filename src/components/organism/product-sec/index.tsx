@@ -70,7 +70,7 @@ export default function ProductSect() {
             Featured Product
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            Meet <span className="text-blue-400">PensionData.ai</span>
+            Meet <span className="text-blue-400">Pension AI</span>
           </h2>
           <p className="text-[1.6rem] text-gray-300 max-w-5xl mx-auto leading-relaxed">
             Revolutionary AI-powered pension data processing platform that transforms how pension fund administrators
@@ -106,7 +106,7 @@ export default function ProductSect() {
               rel="noopener noreferrer"
               className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 rounded-lg font-medium text-[1.6rem] transition-colors"
             >
-              Explore PensionData.ai
+              Explore Pension AI
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
@@ -219,7 +219,7 @@ export default function ProductSect() {
         <div className="text-center mt-16 p-8 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-2xl border border-blue-500/30">
           <h3 className="text-2xl font-bold text-white mb-4">Ready to Transform Your Pension Data Processing?</h3>
           <p className="text-gray-300 mb-6 max-w-4xl mx-auto">
-            Join leading pension fund administrators who trust PensionData.ai to streamline their operations and unlock
+            Join leading pension fund administrators who trust Pension AI to streamline their operations and unlock
             valuable insights.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -230,7 +230,7 @@ export default function ProductSect() {
               className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 rounded-lg font-medium text-[1.6rem] transition-colors"
 
             >
-              Visit PensionData.ai
+              Visit Pension AI
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <button className="border border-slate-600 text-white hover:bg-slate-800 bg-transparent px-8 py-6 rounded-lg font-medium text-[1.6rem] transition-colors">
