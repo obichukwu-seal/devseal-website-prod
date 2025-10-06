@@ -16,6 +16,7 @@ const NavBarRow = (props: Props) => {
           href={
             items.subLinks && items.subLinks?.length > 0 ? "" : items.pathname
           }
+          className="w-full"
         >
           {" "}
           {items.name}
@@ -33,7 +34,7 @@ const NavBarRow = (props: Props) => {
         <Row className="gap-[2.5rem]">{navItems}</Row>
         {sublinks && (
           <NavCard
-            classsName="absolute mt-4  left-1/2 -translate-x-1/2 w-1/2"
+            classsName="absolute mt-6 left-1/2 -translate-x-1/2 xl:w-1/4 w-1/2"
             onMouseLeave={() => setSubLinks(undefined)}
           >
             {sublinks.map(({ icon: Icon, id, name, pathname }, index) => (
@@ -45,9 +46,9 @@ const NavBarRow = (props: Props) => {
                     />
                     <Link
                       href={pathname}
-                      className="group-hover/icon:text-brandeis-blue-600 text-grey-400"
+                      className="group-hover/icon:text-brandeis-blue-600 text-grey-400 w-full"
                     >
-                      {name}
+                      <div className="w-full">{name}</div>
                     </Link>
                   </Row>
                 </Column>

@@ -13,6 +13,7 @@ import {
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { STAY_INFORMED_CONTENT } from "@/constants/stay-informed-data";
+import { CookieBanner } from "@/components/molecule/CookieBanner";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -49,6 +50,7 @@ export default function RootLayout({
           />
           <Footer />
         </div>
+        <CookieBanner/>
         <ToastContainer />
       </body>
     </html>
