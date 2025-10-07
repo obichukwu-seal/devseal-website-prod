@@ -14,7 +14,7 @@ export default function CookiePolicy() {
           </p>
 
           <p className="mb-4">
-            Welcome to <span className="font-semibold">PensionData.ai</span>.
+            Welcome to <span className="font-semibold">devseal.tech</span>.
             This Cookie Policy explains how we use cookies and similar
             technologies on our website. By using this site, you consent to our
             use of cookies as described below (where required by law).
